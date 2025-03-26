@@ -1,4 +1,4 @@
-export interface OpenShiftResource {
+interface OpenShiftResource {
   kind: string;
   metadata: {
     name: string;
@@ -7,7 +7,7 @@ export interface OpenShiftResource {
   status?: any;
 }
 
-export interface OpenShiftMetrics {
+interface OpenShiftMetrics {
   cpu: {
     usage: string;
     limit: string;
@@ -134,26 +134,6 @@ export class OpenShiftService {
     } catch (error) {
       console.error('Error fetching OpenShift metrics:', error);
       return this.getMockMetrics();
-    }
-  }
-
-  async listResources(): Promise<OpenShiftResource[]> {
-    if (!this.isConnected) {
-      console.log('Using mock OpenShift data (not connected to cluster)');
-      return this.getMockPodData();
-    }
-
-    try {
-      const resources = await Promise.all([
-        this.getResourceStatus('pods'),
-        this.getResourceStatus('deployments'),
-        this.getResourceStatus('services')
-      ]);
-
-      return resources.flat();
-    } catch (error) {
-      console.error('Error fetching OpenShift resources:', error);
-      return [];
     }
   }
 
