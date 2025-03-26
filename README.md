@@ -1,60 +1,129 @@
-# 🚀 Project Name IRIS
+# IPE Console - Intelligent Platform Environment
 
-## 📌 Table of Contents
-- [Introduction](#introduction)
-- [Demo](#demo)
-- [Inspiration](#inspiration)
-- [What It Does](#what-it-does)
-- [How We Built It](#how-we-built-it)
-- [Challenges We Faced](#challenges-we-faced)
-- [How to Run](#how-to-run)
-- [Tech Stack](#tech-stack)
-- [Team](#team)
+A comprehensive platform engineering solution that combines incident management, monitoring, and AI-powered assistance. Built with Next.js, Tailwind CSS, and advanced integrations for modern DevOps teams.
 
----
+## Key Features
 
-## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+### Platform Management
+- Real-time incident tracking and management
+- Advanced system telemetry and monitoring
+- Service dependency visualization
+- AI-powered recommendations
+- Comprehensive search capabilities
 
-## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
-🖼️ Screenshots:
+### Integrations
+- OpenShift Container Platform integration
+- GitHub Enterprise connectivity
+- Jira Service Management integration
+- LLM-powered analytics
+- Real-time data synchronization
 
-![Screenshot 1](link-to-image)
+### AI Assistant
+- Natural language interaction
+- Predictive analytics
+- Automated troubleshooting
+- Knowledge base integration
+- Context-aware support
 
-## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+## Getting Started
 
-## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/ipe-console.git
+cd ipe-console
+```
 
-## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+2. Set up environment variables:
+```bash
+cp .env.example .env.local
+# Configure your environment variables:
+# - OPENSHIFT_API_URL
+# - GITHUB_TOKEN
+# - JIRA_API_KEY
+# - LLM_API_KEY
+```
 
-## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+3. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
 
-## 🏃 How to Run
-1. Clone the repository  
-   ```sh
-   git clone https://github.com/your-repo.git
-   ```
-2. Install dependencies  
-   ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
-   ```
-3. Run the project  
-   ```sh
-   npm start  # or python app.py
-   ```
+4. Run the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+5. Open [http://localhost:3000](http://localhost:3000) with your browser
 
-## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+## Tech Stack
+
+### Frontend
+- **Next.js** - React framework for production
+- **Tailwind CSS** - Utility-first CSS framework
+- **Framer Motion** - Animation library
+- **Radix UI** - Accessible component system
+- **Lucide Icons** - Modern icon system
+- **TypeScript** - Type safety
+
+### Backend Integrations
+- **OpenShift API** - Container platform management
+- **GitHub API** - Code repository integration
+- **Jira API** - Issue tracking
+- **LLM API** - AI assistance
+
+## Project Structure
+
+```
+src/
+├── app/                  # Next.js app directory
+│   ├── api/             # API routes
+│   ├── layout.tsx       # Root layout
+│   └── page.tsx         # Home page
+├── components/
+│   ├── IPEConsole/      # Main console components
+│   │   ├── Incidents/   # Incident management
+│   │   ├── Telemetry/   # System monitoring
+│   │   ├── Assistant/   # AI assistant
+│   │   └── index.tsx    # Main component
+│   └── ui/              # Shared UI components
+├── services/            # API integration services
+├── types/               # TypeScript definitions
+└── utils/               # Utility functions
+```
+
+## Configuration
+
+### Required Environment Variables
+- `OPENSHIFT_API_URL` - OpenShift cluster API endpoint
+- `OPENSHIFT_TOKEN` - OpenShift authentication token
+- `GITHUB_TOKEN` - GitHub personal access token
+- `JIRA_API_KEY` - Jira API authentication key
+- `LLM_API_KEY` - Language model API key
+
+### Optional Configuration
+- `TELEMETRY_INTERVAL` - Monitoring refresh rate
+- `LOG_LEVEL` - Application logging level
+- `CACHE_DURATION` - Data cache duration
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- OpenShift team for container platform support
+- GitHub team for repository management features
+- Atlassian team for Jira integration capabilities
+- AI/LLM providers for intelligent assistance features
