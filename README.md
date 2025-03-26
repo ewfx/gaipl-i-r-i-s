@@ -1,60 +1,74 @@
-# 🚀 Project Name IRIS
+# IPE Console
 
-## 📌 Table of Contents
-- [Introduction](#introduction)
-- [Demo](#demo)
-- [Inspiration](#inspiration)
-- [What It Does](#what-it-does)
-- [How We Built It](#how-we-built-it)
-- [Challenges We Faced](#challenges-we-faced)
-- [How to Run](#how-to-run)
-- [Tech Stack](#tech-stack)
-- [Team](#team)
+A modern, colorful dashboard for Intelligent Platform Engineering operations. Built with Next.js, Tailwind CSS, and Framer Motion.
 
----
+## Features
 
-## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+- 🎨 Beautiful, modern UI with gradient backgrounds and animations
+- 🤖 GPT Chat Assistant for incident management
+- 🔧 Agentic Automation Tools
+- 🔔 Real-time Alerts & Notifications
+- 📊 Live Incident Dashboard
+- 🔍 Enterprise Data Integration
+- 📥 Contextual Data Extraction
 
-## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
-🖼️ Screenshots:
+## Getting Started
 
-![Screenshot 1](link-to-image)
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/ipe-console.git
+cd ipe-console
+```
 
-## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
 
-## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+3. Run the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+## Tech Stack
 
-## 🏃 How to Run
-1. Clone the repository  
-   ```sh
-   git clone https://github.com/your-repo.git
-   ```
-2. Install dependencies  
-   ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
-   ```
-3. Run the project  
-   ```sh
-   npm start  # or python app.py
-   ```
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Framer Motion](https://www.framer.com/motion/) - Animation library
+- [Radix UI](https://www.radix-ui.com/) - Unstyled, accessible components
+- [Lucide Icons](https://lucide.dev/) - Beautiful icons
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
 
-## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+## Project Structure
 
-## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+```
+src/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+├── components/
+│   ├── IPEConsole.tsx
+│   └── ui/
+│       ├── button.tsx
+│       ├── card.tsx
+│       ├── input.tsx
+│       ├── tabs.tsx
+│       └── textarea.tsx
+└── lib/
+    └── utils.ts
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 
