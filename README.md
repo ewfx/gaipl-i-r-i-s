@@ -59,6 +59,8 @@ yarn dev
 
 5. Open [http://localhost:3000](http://localhost:3000) with your browser
 
+![image](https://github.com/user-attachments/assets/d1943b6f-ab9c-4d95-a516-d951ffbf016b)
+
 ## Tech Stack
 
 ### Frontend
