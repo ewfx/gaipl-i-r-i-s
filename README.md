@@ -121,12 +121,10 @@ src/
 
 
 ## Acknowledgments
-Naresh krishna Vemuri
+- `Naresh krishna Vemuri`
+- `Pavani Racham`
+- `Kanaparthi Sujith`
+- `Somanapalli, Vaikumar`
+- `Chappa Vijaya Durga`
 
-Pavani Racham
 
-Kanaparthi Sujith
-
-Somanapalli, Vaikumar
-
-Chappa Vijaya Durga
