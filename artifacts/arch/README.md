@@ -1,4 +1,6 @@
-![image](https://github.com/user-attachments/assets/32121540-b9ee-44d2-b1b2-93663b9c3628)
+![image](https://github.com/user-attachments/assets/5a811d31-d6a5-429a-bdbe-57cfa8c63f36)
+
+
 
 ---
 
@@ -42,6 +44,7 @@ A powerful protocol that:
 |-----------------|--------------------|
 | MCP             | JIRA (ticketing & issue tracking) |
 | MCP             | ServiceNow (ITSM workflows)       |
+| MCP             | Openshift (K8s)       |
 | MCP             | CI/CD Tools (DevOps automation)   |
 | MCP             | GitHub (version control & code analysis) |
 
@@ -53,7 +56,7 @@ Used for systems where MCP is not directly employed, still enabling secure and c
 | API Integration | Connected Tool     |
 |-----------------|--------------------|
 | API             | Linborg Tool (likely observability or infra-related) |
-| API             | AVI (App Virtualization Infrastructure)              |
+| API             | VMware NSX Advanced Load Balancer             |
 | API             | MQ (Message Queue system like IBM MQ or RabbitMQ)    |
 
 ---
